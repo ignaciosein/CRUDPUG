@@ -29,11 +29,7 @@ const user = {
 
     res.render("index");
   },
-  deleteUser: (req, res) => {
-    console.log("deleteUser");
-
-    res.render("index");
-  },
+ 
 };
 
 module.exports = user;
